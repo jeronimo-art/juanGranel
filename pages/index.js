@@ -90,9 +90,8 @@ export default function Home() {
           </div>
           <Scroll
             to="cursos"
-            spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
           >
             <Button className="btn-catalogo">Ver catálogo</Button>
@@ -100,10 +99,6 @@ export default function Home() {
         </div>
         <Cursos />
       </div>
-
-      <Link passHref href="/api/auth/login">
-        <button className="login">Entrar</button>
-      </Link>
     </>
   );
 }

@@ -6,7 +6,6 @@ import { Input } from "reactstrap";
 import logo from "../public/img/contacto.png";
 import Image from "next/image";
 import { Button } from "@nextui-org/react";
-//import "../js/validar";
 
 init("user_aUU0Vn7SifIuuMMkkLn9o");
 

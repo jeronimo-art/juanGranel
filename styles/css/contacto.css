@@ -1,0 +1,42 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  height: 50vh;
+}
+
+input {
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+input::placeholder {
+  transition: all 0.3s;
+}
+
+input:focus::placeholder {
+  color: transparent;
+  transition: all 0.3s;
+}
+
+#btn-contact {
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#btn-contact,
+#btn-contact:hover,
+#btn-contact:active,
+#btn-contact:visited,
+#btn-contact:focus {
+  background-color: #4c3e66 !important;
+  border-color: #0000004d !important;
+}
+
+
+.login{
+  z-index: 35;
+}

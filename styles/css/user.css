@@ -1,0 +1,57 @@
+.sider-user {
+  width: 20vw;
+  height: 88vh;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 12vh;
+  overflow: hidden;
+  color: white;
+}
+
+.grid-user {
+  display: grid;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+}
+
+.icon {
+  width: 1.5vw;
+  transform: translate(-50%, 15%);
+  cursor: pointer;
+}
+
+.icon-log{
+    width: 1.5vw;
+    transform: translate(-20%, 15%);
+    color: #eeeeee;
+}
+
+.log-out {
+  position: absolute;
+  bottom: 7vh;
+  left: 5vw;
+  font-size: 2vh;
+  color: #eeeeee;
+  z-index: 12;
+}
+
+.text-log{
+    font-size: 2.3vh;
+    cursor: pointer;
+}
+
+.display-user{
+    width: 80vw;
+    height: 88vh;
+    position: absolute;
+    top: 12vh;
+    right: 0;
+}
+
+.nav-user{
+    list-style: none;
+}

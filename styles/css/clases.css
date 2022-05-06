@@ -1,0 +1,46 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.all-clases {
+  overflow: hidden;
+}
+
+.header-clases {
+  width: 100vw;
+  height: 88vh;
+  overflow: hidden;
+  background-image: url(../../public/img/yogaOnline.jpg);
+  background-size: cover;
+}
+
+.overly-header {
+  width: 100vw;
+  height: 88vh !important;
+  background: #00000090;
+  z-index: 3;
+}
+
+.clases-btn-est {
+  transition: all 0.5s;
+  position: absolute;
+  top: 75vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  height: 5vh;
+  text-align: center;
+  width: 25vw;
+  z-index: 4;
+  background: #9FD364;
+  color: white;
+}
+
+
+.clases-btn-est:active {
+  transform: translateX(-50%) !important;
+}
+
+.laptop {
+  z-index: 4;
+}

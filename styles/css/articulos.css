@@ -1,0 +1,47 @@
+.titulo-articulo {
+  color: #9fd364;
+  position: absolute;
+  left: 72.5vw;
+  transform: translateX(-50%);
+  top: 15vh;
+  text-align: center;
+}
+
+.img-container-art {
+  position: absolute;
+  left: 5vw;
+  top: 18vh;
+  width: 40vw;
+  height: 35vh;
+  overflow: hidden;
+  border-radius: 1vh;
+  box-shadow: 0 1vh 3vh #00000041;
+}
+
+.descripcion-art {
+  position: absolute;
+  left: 55vw;
+  top: 26vh;
+  width: 40vw;
+  overflow: scroll;
+}
+
+span {
+  font-weight: 100;
+}
+
+.propie-art {
+  position: absolute;
+  left: 55vw;
+  width: 40vw;
+  top: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
+}
+
+.propie-art div h3 {
+  color: #9fd364;
+}

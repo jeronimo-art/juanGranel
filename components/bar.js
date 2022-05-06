@@ -2,7 +2,6 @@ import Image from "next/image";
 import logo from "../public/img/logo.svg";
 import { useUser } from "@auth0/nextjs-auth0";
 import Link from "next/link";
-import { slide as Menu } from "react-burger-menu";
 import SideBar from "./siderbar";
 
 export default function Bar() {
@@ -105,6 +104,7 @@ export default function Bar() {
               left: "3vh",
               top: "1vh",
               cursor: "pointer",
+              width: "15vw",
             }}
           ></div>
         </Link>
@@ -127,9 +127,6 @@ export default function Bar() {
           </Link>
         </div>
       </header>
-      <Link passHref href="/api/auth/login">
-        <button className="login">Entrar</button>
-      </Link>
     </>
   );
 }

@@ -9,7 +9,7 @@ export default function Custom404() {
         <meta name="Not found" content="Page or fetch not found" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="all-nf">
+      <div className="all">
           <div className="overly-nf"></div>
       <div className="left-nf">
         <h1 className="nf-inicio-title">¿Te perdiste?</h1>
